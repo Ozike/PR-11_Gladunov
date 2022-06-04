@@ -128,8 +128,10 @@
         android:layout_height="61dp"
         android:layout_marginTop="40dp"
         android:layout_marginEnd="316dp"
+        android:contentDescription="@string/dd"
         android:onClick="ONclick"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="?attr/actionModeCloseDrawable" />
+        app:srcCompat="?attr/actionModeCloseDrawable"
+        tools:ignore="SpeakableTextPresentCheck,DuplicateSpeakableTextCheck,ImageContrastCheck" />
 </androidx.constraintlayout.widget.ConstraintLayout>

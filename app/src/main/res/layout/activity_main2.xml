@@ -169,7 +169,7 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="312dp"
         android:layout_marginBottom="16dp"
-        android:text="Предложения"
+        android:text="@string/w"
         android:textColor="#F6F0BA"
         app:layout_constraintBottom_toTopOf="@+id/Картинка_мужчина3"
         app:layout_constraintEnd_toEndOf="parent" />
@@ -180,7 +180,7 @@
         android:layout_height="33dp"
         android:layout_marginEnd="20dp"
         android:layout_marginBottom="16dp"
-        android:text="Сергей, приветствуем в нашем приложении"
+        android:text="@string/ww"
         android:textColor="#F6F0BA"
         android:textSize="16sp"
         app:layout_constraintBottom_toTopOf="@+id/картинка_мужчина"
@@ -190,9 +190,13 @@
         android:id="@+id/imageView3"
         android:layout_width="42dp"
         android:layout_height="53dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="16dp"
+        android:contentDescription="@string/ss"
         android:onClick="ONCLICK"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@android:drawable/ic_delete"
-        tools:layout_editor_absoluteX="353dp"
-        tools:layout_editor_absoluteY="2dp" />
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck,DuplicateSpeakableTextCheck,ImageContrastCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
