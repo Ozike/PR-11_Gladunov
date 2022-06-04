@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8847AF"
+    tools:context=".MainActivity2">
+
+    <ImageView
+        android:id="@+id/картинка_мужчина4"
+        android:layout_width="123dp"
+        android:layout_height="111dp"
+        android:layout_marginTop="104dp"
+        android:layout_marginEnd="16dp"
+        android:contentDescription="@string/todo3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/rectangle_3"
+        tools:ignore="ImageContrastCheck" />
+
+    <ImageView
+        android:id="@+id/картинка_мужчина3"
+        android:layout_width="123dp"
+        android:layout_height="111dp"
+        android:layout_marginTop="104dp"
+        android:layout_marginEnd="148dp"
+        android:contentDescription="@string/todo3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/rectangle_3"
+        tools:ignore="ImageContrastCheck" />
+
+    <ImageView
+        android:id="@+id/картинка_мужчина"
+        android:layout_width="123dp"
+        android:layout_height="111dp"
+        android:layout_marginTop="104dp"
+        android:layout_marginEnd="284dp"
+        android:contentDescription="@string/todo3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/rectangle_3"
+        tools:ignore="ImageContrastCheck" />
+
+    <ImageView
+        android:id="@+id/картинка_мужчина2"
+        android:layout_width="123dp"
+        android:layout_height="111dp"
+        android:layout_marginTop="280dp"
+        android:layout_marginEnd="284dp"
+        android:contentDescription="@string/todo3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/rectangle_3"
+        tools:ignore="ImageContrastCheck" />
+
+    <ImageView
+        android:id="@+id/Картинка_мужчина"
+        android:layout_width="123dp"
+        android:layout_height="111dp"
+        android:layout_marginTop="280dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/rectangle_3"
+        tools:ignore="ImageContrastCheck"
+        android:contentDescription="@string/todo" />
+
+    <ImageView
+        android:id="@+id/Картинка_мужчина2"
+        android:layout_width="123dp"
+        android:layout_height="111dp"
+        android:layout_marginTop="280dp"
+        android:layout_marginEnd="148dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/rectangle_3"
+        tools:ignore="ImageContrastCheck"
+        android:contentDescription="@string/todo1" />
+
+    <ImageView
+        android:id="@+id/Картинка_мужчина3"
+        android:layout_width="123dp"
+        android:layout_height="111dp"
+        android:layout_marginTop="280dp"
+        android:layout_marginEnd="284dp"
+        android:contentDescription="@string/todo3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/rectangle_3"
+        tools:ignore="ImageContrastCheck" />
+
+    <ImageView
+        android:id="@+id/Главная_картинка2"
+        android:layout_width="156dp"
+        android:layout_height="153dp"
+        android:layout_marginEnd="248dp"
+        android:layout_marginBottom="52dp"
+        android:contentDescription="@string/image_secondactivity"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/____12__2_5________2"
+        tools:ignore="ImageContrastCheck" />
+
+    <TextView
+        android:id="@+id/Информация"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="244dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/info"
+        android:textColor="#F6F0BA"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/Кнопка_друзья"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="480dp"
+        android:layout_marginEnd="252dp"
+        android:backgroundTint="#3DA394"
+        android:onClick="onClick"
+        android:text="@string/search_friends"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="DuplicateSpeakableTextCheck,TextContrastCheck" />
+
+    <Button
+        android:id="@+id/Кнопка_уведомления"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="572dp"
+        android:layout_marginEnd="160dp"
+        android:backgroundTint="#3DA394"
+        android:text="@string/уведомления"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextContrastCheck" />
+
+    <ImageView
+        android:id="@+id/Поиск_картинка"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="72dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/rectangle_8"
+        tools:ignore="ImageContrastCheck"
+        android:contentDescription="@string/todo7" />
+
+    <ImageView
+        android:id="@+id/Аватарка"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@string/todo2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ellipse_1" />
+
+    <TextView
+        android:id="@+id/Предложения"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="312dp"
+        android:layout_marginBottom="16dp"
+        android:text="Предложения"
+        android:textColor="#F6F0BA"
+        app:layout_constraintBottom_toTopOf="@+id/Картинка_мужчина3"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/Приветстиве"
+        android:layout_width="385dp"
+        android:layout_height="33dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="16dp"
+        android:text="Сергей, приветствуем в нашем приложении"
+        android:textColor="#F6F0BA"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/картинка_мужчина"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="42dp"
+        android:layout_height="53dp"
+        android:onClick="ONCLICK"
+        app:srcCompat="@android:drawable/ic_delete"
+        tools:layout_editor_absoluteX="353dp"
+        tools:layout_editor_absoluteY="2dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

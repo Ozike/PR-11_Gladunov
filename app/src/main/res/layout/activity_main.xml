@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8847AF"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/заполнение3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="92dp"
+        android:layout_marginEnd="44dp"
+        android:contentDescription="@string/zapolnenie"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Фамилия"
+        app:srcCompat="@drawable/rectangle_8"
+        tools:ignore="ImageContrastCheck" />
+
+    <ImageView
+        android:id="@+id/заполнение"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="47dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Фамилия"
+        app:srcCompat="@drawable/rectangle_8"
+        tools:ignore="ImageContrastCheck"
+        android:contentDescription="@string/zapolnenie" />
+
+    <ImageView
+        android:id="@+id/Регистр_картинка"
+        android:layout_width="24dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginBottom="840dp"
+        android:contentDescription="@string/Cartoon_login"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/Главная_картинка"
+        app:srcCompat="@android:drawable/ic_menu_send" />
+
+    <TextView
+        android:id="@+id/Registr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="32dp"
+        android:text="@string/Registrr"
+        android:textColor="#F6F0BA"
+        android:textSize="16sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Help"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="34dp"
+        android:text="@string/Helpp"
+        android:textColor="#F6F0BA"
+        android:textSize="16sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Registr" />
+
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="768dp"
+        android:text="@string/loginn"
+        android:textColor="#F6F0BA"
+        android:textSize="16sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/Главная_картинка"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/____12__2_5________2"
+        tools:ignore="ImageContrastCheck"
+        android:contentDescription="@string/cartoon_start" />
+
+    <ImageView
+        android:id="@+id/Картинка_помощь"
+        android:layout_width="24dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="17dp"
+        app:layout_constraintStart_toEndOf="@+id/Главная_картинка"
+        app:layout_constraintTop_toBottomOf="@+id/Registr"
+        app:srcCompat="@android:drawable/sym_action_chat"
+        android:contentDescription="@string/help_cartoon" />
+
+    <ImageView
+        android:id="@+id/Картинка_входа"
+        android:layout_width="24dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="116dp"
+        android:layout_marginBottom="768dp"
+        android:contentDescription="@string/Cartoon_login"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/Главная_картинка"
+        app:srcCompat="@android:drawable/ic_menu_send" />
+
+    <Button
+        android:onClick="onclick"
+        android:id="@+id/Зарегестрироваться"
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="72dp"
+        android:layout_marginBottom="124dp"
+        android:backgroundTint="#3DA394"
+        android:text="@string/Registr_buttonn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/Имя"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="220dp"
+        android:layout_marginBottom="220dp"
+        android:text="@string/name"
+        android:textColor="#F6F0BA"
+        app:layout_constraintBottom_toTopOf="@+id/Зарегестрироваться"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/Фамилия"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="184dp"
+        android:layout_marginBottom="152dp"
+        android:text="@string/secondname"
+        android:textColor="#F6F0BA"
+        app:layout_constraintBottom_toTopOf="@+id/Зарегестрироваться"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/Номер"
+        android:layout_width="261dp"
+        android:layout_height="18dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="88dp"
+        android:text="@string/number"
+        android:textColor="#F6F0BA"
+        app:layout_constraintBottom_toTopOf="@+id/Зарегестрироваться"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/Заполнение3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="47dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Имя"
+        app:srcCompat="@drawable/rectangle_8"
+        tools:ignore="ImageContrastCheck"
+        android:contentDescription="@string/zapolnenie1" />
+
+    <ImageView
+        android:id="@+id/Согласие_картинка"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="340dp"
+        android:layout_marginBottom="48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/rectangle_6"
+        android:contentDescription="@string/accept" />
+
+    <TextView
+        android:id="@+id/Согласие_на_обработку"
+        android:layout_width="290dp"
+        android:layout_height="38dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="44dp"
+        android:text="@string/politic"
+        android:textColor="#F6F0BA"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
